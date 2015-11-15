@@ -1,5 +1,22 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	.jumbotron
+		.container
+			h1 Welcome to Yijun's Webpage
+			p Interesting projects are here!
+			a.btn.btn-primary.btn-lg(href='#') Learn more &raquo
+	.container
+		.row
+			.col-md-4
+				.h2 Connect
+				p Know more peers from this website.
+				a.btn.btn-default(href='#') View Details
+			.col-md-4
+				.h2 Share
+				p The files that are served.
+				a.btn.btn-default(href='#') View Details
+			.col-md-4
+				.h2 Interface
+				p The interface of the website.
+				a.btn.btn-default(href='#') View Details
